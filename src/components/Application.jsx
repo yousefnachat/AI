@@ -7,7 +7,7 @@ import BgImage from "../assets/BgImage.png";
 
 const Application = () => {
   return (
-    <section>
+    <section id="Application">
       <div className="pt-16">
         <h1
           className="text-4xl font-bold text-center text-gray-200 mb-10"

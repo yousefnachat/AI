@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
@@ -30,7 +30,7 @@ li:hover {
   transition: transform 0.2s ease;
 }
 .navButton {
-  @apply w-24 h-11;
+  @apply w-28 h-11;
 }
 button {
   margin-top: 15px;
@@ -62,18 +62,20 @@ button:hover {
   margin: 5px;
 }
 .scroll-container {
-  overflow-x: auto; 
-  white-space: nowrap; 
-  scrollbar-width: none; 
+  height: 155px;
+
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
   width: calc(100% - 20px);
-  max-width: calc(5 * (200px + 10px));
+  max-width: calc(7 * (200px + 10px));
 }
+
 .scroll-container::-webkit-scrollbar {
   display: none;
 }
 .card {
   display: inline-block;
-  width: 200px;
+  width: 140px;
   margin-right: 10px;
 }
-

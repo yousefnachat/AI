@@ -16,14 +16,14 @@ const Nav = () => {
         <div className="flex items-center">
           <ul className="flex text-base backdrop-blur-xl bg-[#58585861] rounded-full p-4">
             <li>Home</li>
-            <li>What is AI?</li>
-            <li>Resources</li>
-            <li>Applications</li>
+            <li><a href="#Definition">What is AI?</a></li>
+            <li><a href="#Application">Application's</a></li>
+            <li><a href="#Ressource's">Ressource's</a></li>
           </ul>
         </div>
         <div className="flex items-center">
           <button className="navButton">
-            <a href="">Login</a>
+            <a href="">Contact Us</a>
           </button>
         </div>
       </nav>

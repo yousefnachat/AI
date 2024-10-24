@@ -11,7 +11,7 @@ const AiSection = () => {
   }, []);
 
   return (
-    <section>
+    <section id="Definition">
       <div className="grid grid-cols-1 w-full text-white mt-10 text-center">
         <h1 id="AiEntery" className="text-4xl font-bold text-center text-gray-200 mb-10" style={{ fontFamily: 'Roboto, sans-serif' }} /* className="text-5xl opacity-0"*/>
           What Is AI?

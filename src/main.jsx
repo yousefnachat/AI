@@ -6,6 +6,7 @@ import AiSection from "./components/AiSection";
 import "./index.css";
 import Application from "./components/Application";
 import Ressources from "./components/Ressources";
+import Footer from "./components/Footer"
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -14,5 +15,6 @@ createRoot(document.getElementById("root")).render(
     <AiSection />
     <Application />
     <Ressources />
+    <Footer />
   </StrictMode>
 );
