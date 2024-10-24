@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+*{
   padding: 0;
   margin: 0;
   font-family: sans-serif;
@@ -18,7 +18,6 @@ body {
 .aiLogo {
   width: 120px;
 }
-
 li {
   margin: 0 20px;
   cursor: pointer;
@@ -62,3 +61,19 @@ button:hover {
   transition: transform 0.2s ease;
   margin: 5px;
 }
+.scroll-container {
+  overflow-x: auto; 
+  white-space: nowrap; 
+  scrollbar-width: none; 
+  width: calc(100% - 20px);
+  max-width: calc(5 * (200px + 10px));
+}
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+.card {
+  display: inline-block;
+  width: 200px;
+  margin-right: 10px;
+}
+
