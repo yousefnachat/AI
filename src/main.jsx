@@ -6,14 +6,14 @@ import AiSection from "./components/AiSection";
 import "./index.css";
 import Application from "./components/Application";
 import Ressources from "./components/Ressources";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Nav />
     <Hero />
     <AiSection />
-    <Application />
+    <Application/>
     <Ressources />
     <Footer />
   </StrictMode>

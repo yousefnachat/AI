@@ -13,7 +13,7 @@ const Footer = () => {
         </h1>
       </div>
       <div>
-        <p className="text-slate-300 text-center text-xl">AIGateway Discover the cutting-edge world of artificial intelligence with our curated collection of AI tools and resources.</p>
+        <p className="text-slate-300 text-center text-xl p-4">AIGateway Discover the cutting-edge world of artificial intelligence with our curated collection of AI tools and resources.</p>
       </div>
       <div>
         <hr className="bg-white  rounded-2xl mt-4 mb-5" />
