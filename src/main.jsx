@@ -13,7 +13,7 @@ createRoot(document.getElementById("root")).render(
     <Nav />
     <Hero />
     <AiSection />
-    <Application/>
+    <Application />
     <Ressources />
     <Footer />
   </StrictMode>
