@@ -30,46 +30,66 @@ const Nav = () => {
         <div className="flex items-center">
           <ul className="text-base backdrop-blur-xl bg-[#58585861] rounded-full p-4 hidden sm:flex sm:static">
             <li>
-              <a href="/" onClick={handleLinkClick}>Home</a>
+              <a href="/" onClick={handleLinkClick}>
+                Home
+              </a>
             </li>
             <li>
-              <a href="#Definition" onClick={handleLinkClick}>What is AI?</a>
+              <a href="#Definition" onClick={handleLinkClick}>
+                What is AI?
+              </a>
             </li>
             <li>
-              <a href="#Application" onClick={handleLinkClick}>Application's</a>
+              <a href="#Application" onClick={handleLinkClick}>
+                Application's
+              </a>
             </li>
             <li>
-              <a href="#Ressource's" onClick={handleLinkClick}>Ressource's</a>
+              <a href="#Ressource's" onClick={handleLinkClick}>
+                Ressource's
+              </a>
             </li>
           </ul>
         </div>
         <div className="flex items-center">
           {isNavOpen && (
             <>
-              <ul className="text-base backdrop-blur-xl bg-[#58585861] w-80 h-96 z-10 text-center p-4 absolute right-0 top-24 sm:flex sm:static">
+              <ul
+                className="text-base backdrop-blur-xl bg-[#58585861] flex block flex-col w-full z-10 text-center p-4 absolute right-0 top-24 mt-4 pt-10 sm:flex sm:static"
+                style={{ height: 1000 }}
+              >
                 <li className="mb-2">
-                  <a href="/" onClick={handleLinkClick}>Home</a>
+                  <a href="/" onClick={handleLinkClick}>
+                    Home
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#Definition" onClick={handleLinkClick}>What is AI?</a>
+                  <a href="#Definition" onClick={handleLinkClick}>
+                    What is AI?
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#Application" onClick={handleLinkClick}>Application's</a>
+                  <a href="#Application" onClick={handleLinkClick}>
+                    Application's
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#Ressource's" onClick={handleLinkClick}>Ressource's</a>
+                  <a href="#Ressource's" onClick={handleLinkClick}>
+                    Ressource's
+                  </a>
+                </li>
+                <li>
+                  <button className="navButton  sm:flex sm:static">
+                    <a
+                      href="https://www.youtube.com/watch?v=efam9B6VKwo"
+                      target="_blank"
+                      onClick={handleLinkClick}
+                    >
+                      AI Roadmap
+                    </a>
+                  </button>
                 </li>
               </ul>
-
-              <button className="navButton absolute left-28 bottom-36 z-10 sm:flex sm:static">
-                <a
-                  href="https://www.youtube.com/watch?v=efam9B6VKwo"
-                  target="_blank"
-                  onClick={handleLinkClick}
-                >
-                  AI Roadmap
-                </a>
-              </button>
             </>
           )}
           <button className="navButton hidden sm:block">
